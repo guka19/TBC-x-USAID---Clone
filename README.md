@@ -3,7 +3,7 @@ https://www.tbcacademy.ge/usaid - clone made using html, scss and  javascript
 structure of the project :
      root-directory : in the root directory we have the package.json and package-lock.json for the npx packages,  node-modules where our packages are installed, README.md file for the instructions of the project  and the src folder where projects main files go (html, scss, sss, js, assets);
 
-used next npm packages: 
+used npm packages: 
     live-server - for opening the project in the local server 
     sass - for compiling scss
 
