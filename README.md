@@ -23,4 +23,11 @@ for running the app you can either open the index.html from the src folder direc
 while being in the root directory run "npx sass -w src/styles.scss src/styles.css"
 
 ***** sometimes live server library have problems with opening localhost due the lack of permissions on some ports, if this happens suggest to directly open the 
-index.html or use code-editor, IDE live server tools.
+index.html or use code-editor, IDE live server tools.   
+
+
+** also some features are changed from the original project : for example
+burger menu design is different from the original,
+slider on responsive screens is set only on autoplay,
+footer on responsive is different , cause this looks better :ddd ,
+also the course list is set to flex-wrap for better responsive on every pixel change of the screen so on different screens there will be different amount of course items in the row
