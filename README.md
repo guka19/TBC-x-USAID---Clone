@@ -9,15 +9,18 @@ used npm packages:
 
 running the app: 
 
+for running the app you can either open the index.html from the src folder directly or you can use live-server library from the npm, this way you can also manipulate scss:
+
 ** should have npm installed on your system
 ** should have npx installed on your system
 
 1. clone the repository
 2. open the root folder of the application
 3. run "npm install" or "npm i"
-4. while being in the root folder of the application run "npx live-server src/"
-
-now the live server will open the project on the local server on your device
+4. while being in the root folder of the application run "npx live-server src/" 
 
 ** For the scss manipulation you should run the sass compiler 
 while being in the root directory run "npx sass -w src/styles.scss src/styles.css"
+
+***** sometimes live server library have problems with opening localhost due the lack of permissions on some ports, if this happens suggest to directly open the 
+index.html or use code-editor, IDE live server tools.
